@@ -60,7 +60,7 @@ Answer:
     llm = ChatGoogleGenerativeAI(
         model="gemini-2.5-flash",
         google_api_key=os.environ["GOOGLE_API_KEY"],
-        temperature=0.3
+        temperature=0.6
     )
 
     rag_chain = (
